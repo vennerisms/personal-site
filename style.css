@@ -1,0 +1,102 @@
+body{
+	background-image: url('images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.panel{
+	background-color: #c0baba;
+	height: 100%;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+.panel h3{
+	text-align: center;
+	padding: 15px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.headerpanel{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	position: absolute;
+	left:50px;
+	top:150px;
+	height: 200px;
+	width: 500px;
+	background-color: #c0baba;
+	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+.headerpbar{
+	background:linear-gradient(90deg,#3F1091,#85898d) ;
+	font-weight: bold;
+	display: flex;
+	padding: 3px 2px 3px 3px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 2px 3px;
+	width: a;
+	height: auto;
+}
+
+.headerpanel h1{
+	padding-left: 15px;
+	color: #c0baba;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+	margin: 0;
+}
+
+.headerpanel h3{
+	font-family: 'Courier New', Courier, monospace;
+	font-style: bold;
+	font-size: 30px;
+	margin: auto;
+}
+
+.separators{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+
+.navbar{
+	background:linear-gradient(90deg,#3F1091,#85898d);
+	height: 100px;
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+.navbar a{
+	font-size: 25px;
+	color: black;
+	padding: 9px;
+	margin: 10px 15px 10px 20px;
+	text-decoration: none;
+	background-color: #c0baba;
+	font-family: 'Courier New', Courier, monospace;
+	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+.Icon{
+	float: right;
+	margin-left: 10px;
+}
