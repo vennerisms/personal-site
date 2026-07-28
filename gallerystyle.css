@@ -1,0 +1,115 @@
+body{
+	background-image: url('images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/purple-paw-print-d19c5382-32.webp') 32 32, auto !important;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	background:linear-gradient(90deg,#3F1091,#85898d);
+	height: 100px;
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+.navstamps{
+	margin-left: auto;
+	margin-right: 3%;
+}
+
+.navbar a{
+	font-size: 25px;
+	color: black;
+	padding: 9px;
+	margin: 10px 15px 10px 20px;
+	text-decoration: none;
+	background-color: #c0baba;
+	font-family: 'Courier New', Courier, monospace;
+	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+.separators{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+
+.warningcontent{
+	display: flex;
+	align-self: start;
+	gap: 20px;
+	margin: 0 25px;
+}
+
+#warningpanel{
+	background-color: #c0baba;
+	height: 80%;
+	width: 1200px;
+	gap: 10px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+.warning{
+	background-color: #85898d;
+	border-style: dashed;
+	justify-content: center;
+	width: 500px;
+	height: 400px;
+	overflow: hidden;
+	margin-top: 50px;
+    margin: auto;
+}
+
+.warning p{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 19;
+	text-align: center;
+	font-weight: bold;
+}
+
+.panel h3{
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 40px;
+	font-weight: bold;
+	height: auto;
+}
+
+.credits{
+	background-color: #c0baba;
+	width: 1200px;
+	display: block;
+	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.credittext{
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+.credittext p{
+	font-size: 20px;
+}
