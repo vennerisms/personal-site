@@ -33,11 +33,10 @@ html{
 
 #socialpanel{
 	background-color: #c0baba;
-	height: 85%;
+	height: 70%;
 	width: 500px;
 	gap: 10px;
 	margin: auto;
-	margin-top: 50px;
 	box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
 }
 
@@ -110,9 +109,9 @@ li{
 	justify-content: center;
 	margin: auto;
 	position: absolute;
-	top: 16%;
-	left:3%;
-	right:60%;
+	top: 120px;
+	left:35px;
+	right: 1000px;
 	height: 200px;
 	width: 500px;
 	background-color: #c0baba;
@@ -171,7 +170,7 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 10px;
+	margin: 20px;
 }
 
 .blinkies{
@@ -196,7 +195,7 @@ button {
 
 .navstamps{
 	margin-left: auto;
-	margin-right: 3%;
+	margin-right: 10px;
 }
 
 .navbar a{
@@ -221,9 +220,8 @@ button {
 	background-color: #85898d;
 	border-style: dashed;
 	display: flex;
-	width: 91%;
+	width: 455px;
 	height: 400px;
-	margin-top: 50px;
 	margin-right: auto;
 	margin-left: 20px;
 	gap: 20px;
@@ -247,7 +245,7 @@ button {
 {
 	width: 100px;
 	height: auto;
-	margin-top: 9%;
+	margin-top: 7%;
 }
 
 .socialstext{
